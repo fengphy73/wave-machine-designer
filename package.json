@@ -1,0 +1,20 @@
+{
+  "name": "wave-machine-designer",
+  "version": "1.0.0",
+  "description": "橫波與駐波機設計器：扭擺式（Shive 型）波動機的參數化 3D 列印設計器",
+  "scripts": {
+    "build": "node build.mjs",
+    "build:pages": "node build.mjs --pages",
+    "test": "node tests/geometry.test.mjs"
+  },
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "manifold-3d": "^3.5.5",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.12"
+  },
+  "private": true
+}

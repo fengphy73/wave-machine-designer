@@ -1,0 +1,24 @@
+*{box-sizing:border-box}body{margin:0;font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;color:#1d2a33;background:#eef1f4}
+header{background:#7a1f2b;color:#fff;padding:12px 20px}header h1{margin:0;font-size:22px}header small{font-weight:400;opacity:.8;font-size:14px}header p{margin:4px 0 0;opacity:.9;font-size:14px}
+main{display:grid;grid-template-columns:360px 1fr;gap:14px;padding:14px}@media(max-width:860px){main{grid-template-columns:1fr}}
+.panel{background:#fff;border-radius:10px;padding:10px 12px;align-self:start}fieldset{border:1px solid #dde3e8;border-radius:8px;margin:0 0 10px;padding:6px 10px}legend{font-weight:700;font-size:14px;color:#7a1f2b}
+.row{display:grid;grid-template-columns:1fr 80px 28px;align-items:center;gap:6px;margin:5px 0;font-size:14px}.row small{grid-column:1/-1;color:#8895a0;font-size:11px;margin-top:-4px;text-align:right}.row select{grid-column:2/4}
+input,select{font:inherit;padding:4px 6px;border:1px solid #c5ced6;border-radius:6px;width:100%}.row em{font-style:normal;color:#66737e;font-size:12px}
+button{font:inherit;padding:7px 12px;border:1px solid #b9c3cc;border-radius:7px;background:#fff;cursor:pointer}button:hover{background:#f4f6f8}button.primary{background:#7a1f2b;color:#fff;border-color:#7a1f2b}
+.view{background:#fff;border-radius:10px;padding:10px 12px;min-width:0}.toolbar{display:flex;gap:16px;align-items:center;font-size:14px;margin-bottom:8px}.toolbar button{margin-left:auto}
+#canvas{height:480px;border-radius:8px;overflow:hidden;background:#f3f5f7}#canvas canvas{display:block}
+#warn div{background:#fff4d6;border-left:4px solid #e0a800;padding:5px 8px;margin-top:6px;font-size:13px}
+table{border-collapse:collapse;width:100%;margin-top:10px;font-size:14px}th,td{border-bottom:1px solid #e3e8ec;padding:5px 6px;text-align:left}td i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px}
+.axis{font-size:14px;line-height:1.6}.downloads{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}.note{font-size:13px;color:#56636e;line-height:1.6}
+/* v1.3.0：筆徑欄位醒目 */
+.row.key { background: #fff4d6; border: 2px solid #e0a800; border-radius: 6px; padding: 6px; font-weight: 700; }
+.row.key input { font-size: 1.15em; font-weight: 700; }
+.keytip { margin: 2px 0 8px; font-size: 12px; color: #8a5a00; line-height: 1.5; }
+/* 橫波與駐波機設計器 */
+.row.chk{grid-template-columns:1fr 80px 28px}.row.chk input{width:auto;justify-self:start}
+.toolbar{flex-wrap:wrap}.toolbar select{width:auto}.anim{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:8px 0;font-size:13px}.anim b{color:#7a1f2b}
+.tag{display:inline-block;background:#fdecea;color:#a93226;border:1px solid #e6b0aa;border-radius:4px;padding:0 6px;font-size:12px;margin-left:6px}
+#checks{list-style:none;padding:0;margin:8px 0;font-size:13px;line-height:1.6}#checks li.bad{color:#9a5b00;background:#fff4d6;border-radius:4px;padding:0 4px}
+.est{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:6px 16px;font-size:14px;margin-top:8px}.est div span{color:#66737e;font-size:12px;display:block}
+pre.asm{white-space:pre-wrap;font-family:inherit;font-size:13px;line-height:1.65;background:#f7f9fa;border-radius:8px;padding:10px 12px}
+h2{font-size:16px;color:#7a1f2b;margin:16px 0 4px}
